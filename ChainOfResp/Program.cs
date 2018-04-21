@@ -22,6 +22,9 @@ namespace ChainOfResp
 			p = new Purchase(2036, 122100.00, "Project Y");
 			larry.ProcessRequest(p);
 
+            p = new Purchase(1000, 100000.00, "Project Z");
+            larry.ProcessRequest(p);
+
 			Console.ReadKey();
 		}
 	}
